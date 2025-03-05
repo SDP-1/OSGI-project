@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RFOS_ProducerBundle
+Bundle-SymbolicName: RFOS_ProducerBundle
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: rfos_producerbundle.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: RFOS.ProducerBundle
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: rfos_producerbundle.service

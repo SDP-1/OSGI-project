@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RBS_ConsumerBundle
+Bundle-SymbolicName: RBS_ConsumerBundle
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: rbs_consumerbundle.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: RBS.ConsumerBundle
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Import-Package: org.osgi.framework, rbs_producerbundle.service
