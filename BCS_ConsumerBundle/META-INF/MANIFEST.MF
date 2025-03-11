@@ -8,4 +8,3 @@ Bundle-RequiredExecutionEnvironment: JavaSE-21
 Automatic-Module-Name: BCS.ConsumerBundle
 Import-Package: org.osgi.framework;version="1.3.0"
 Bundle-ActivationPolicy: lazy
-Import-Package: org.osgi.framework, bcs_producerbundle.service

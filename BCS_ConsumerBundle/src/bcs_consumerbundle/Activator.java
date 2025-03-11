@@ -1,19 +1,22 @@
 package bcs_consumerbundle;
 
+import java.util.List;
+import java.util.Map;
+
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
-import bcs_consumerbundle.consumer.BillingConsumer;
+import org.osgi.framework.ServiceReference;
 
 public class Activator implements BundleActivator {
-    public void start(BundleContext context) throws Exception {
-        System.out.println("BCS Consumer Bundle Started.");
 
-        // Create an instance of BillingConsumer
-        BillingConsumer consumer = new BillingConsumer();
-        consumer.consumeService(context);
+    @Override
+    public void start(BundleContext context) throws Exception {
+        System.out.println("BCS Consumer Bundle Started...");
     }
 
+    @Override
     public void stop(BundleContext context) throws Exception {
         System.out.println("BCS Consumer Bundle Stopped.");
     }
+
 }
